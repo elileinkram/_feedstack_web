@@ -27,7 +27,7 @@ Each post has a ranking.
 
 A post with a higher ranking will be served before a post with a lower ranking. 
 
-The ranking of a post is calculated by the computeRanking function. You can write your own computeRanking function to program the feed to show posts that you want to see.
+The ranking of a post is calculated by the computeRanking function. You can program the computeRanking function to show you posts that you want to see.
 
 The function takes in 3 classes as input. 
 
