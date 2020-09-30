@@ -24,7 +24,7 @@ A. Then the order will be random.
 
 [FOMO](https://github.com/elijahleinkram/feed-samples/blob/master/functions/fomo.js)
 
-# Why though?
+# What's the point?
 
 The main idea behind Jasper, is that as consumers of social products, we have missed out on 2 key things. 
 
