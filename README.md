@@ -30,7 +30,7 @@ The ranking is calculated by the computeRanking function.
 The function takes in 3 classes as input. [Author](https://github.com/elijahleinkram/feed-samples/blob/master/classes/author.js), [Post](https://github.com/elijahleinkram/feed-samples/blob/master/classes/post.js) and [Reader](https://github.com/elijahleinkram/feed-samples/blob/master/classes/reader.js). 
 And spits back a number as output.
 
-The number becomes the ranking of the post.
+That number becomes the ranking of the post.
 
 You can modify the function to show you posts that you want. The code must be written with the same boilerplate as [this](https://github.com/elijahleinkram/feed-samples/edit/master/ranking/computeRanking). Else, it will not work.
 
