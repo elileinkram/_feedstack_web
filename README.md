@@ -7,7 +7,7 @@ All of these feeds curate content a differert way. Some show you posts of dogs, 
 1. Transparency as to why and how posts end up in our feeds. 
 2. Control over the algorithms that determine what enters our feeds. 
 
-And at Jasper, we aim to fix those patches.
+And at Jasper, we aim to fix that.
 
 # How it works
 
