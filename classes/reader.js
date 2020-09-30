@@ -1,3 +1,5 @@
+// Representing the person who reads the post
+
 class Reader {
 
     constructor(readerID, isFollowing, myReactions, myComments, myViews, authorID, post) {
