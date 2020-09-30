@@ -21,7 +21,7 @@ If the ranking is greater than 0. Then the post will be included in the feed. If
 
 
 
-# This example is just a start...
+# These examples are just a start.
 
 There are heaps of other interesting properties you can access, be sure to check them out. 
 
