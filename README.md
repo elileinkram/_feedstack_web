@@ -10,9 +10,9 @@ Each post has a number associated with it. The number is called a ranking.
 
 Posts with higher rankings will feature in the feed before posts with lower rankings.
 
-The ranking is calculated by the [computeRanking](https://github.com/elijahleinkram/jasper/blob/master/ranking/compute_ranking) function.
+The ranking is calculated by [computeRanking](https://github.com/elijahleinkram/jasper/blob/master/ranking/compute_ranking).
 
-[computeRanking](https://github.com/elijahleinkram/jasper/blob/master/ranking/compute_ranking) takes in 3 classes as input.
+The function takes in 3 classes as input.
 
 [Author](https://github.com/elijahleinkram/jasper/blob/master/classes/author.js), [Reader](https://github.com/elijahleinkram/jasper/blob/master/classes/reader.js) and [Post](https://github.com/elijahleinkram/jasper/blob/master/classes/post.js).
 
