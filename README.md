@@ -4,6 +4,14 @@
 
 We give people the tools to build their own ranking algorithms that can be used to make purpose-built feeds.
 
+# Examples
+
+[In Dogs We Trust](https://github.com/elijahleinkram/feed-samples/blob/master/functions/in_dogs_we_trust.js)
+
+[The Road Not Taken](https://github.com/elijahleinkram/feed-samples/blob/master/functions/the_road_not_taken.js)
+
+[FOMO](https://github.com/elijahleinkram/feed-samples/blob/master/functions/fomo.js)
+
 # How it works
 
 Each post has a ranking number.
@@ -30,13 +38,7 @@ If [computeRanking](https://github.com/elijahleinkram/jasper/blob/master/ranking
 
 If your implementation of [computeRanking](https://github.com/elijahleinkram/jasper/blob/master/ranking/compute_ranking) does not follow the same structure as the one shown [here](https://github.com/elijahleinkram/jasper/blob/master/ranking/compute_ranking) then it will not work. 
 
-# Examples
 
-[In Dogs We Trust](https://github.com/elijahleinkram/feed-samples/blob/master/functions/in_dogs_we_trust.js)
-
-[The Road Not Taken](https://github.com/elijahleinkram/feed-samples/blob/master/functions/the_road_not_taken.js)
-
-[FOMO](https://github.com/elijahleinkram/feed-samples/blob/master/functions/fomo.js)
 
 
 
