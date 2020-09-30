@@ -1,3 +1,5 @@
+// "Show me posts of dogs that make people happy"
+
 module.exports = {
 
     computeRanking: function (author, post, reader) {
