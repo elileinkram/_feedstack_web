@@ -11,8 +11,7 @@ And at Jasper, we aim to fix that.
 
 # How it works
 
-We provide you with 3 classes. The Author, the Post and the Reader. You can find these objects in the 'classes' directory. In this directory, you will find clear descriptions about how to use the various proprties of these objects. 
-
+We provide you with 3 classes. The Author, the Post and the Reader. You can find these objects and a description of their fields in the 'classes' directory.
 
 
 
