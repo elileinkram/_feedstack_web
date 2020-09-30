@@ -27,7 +27,9 @@ We provide you with 3 classes. [Author](https://github.com/elijahleinkram/feed-s
 
 We use these classes to derive a ranking for the post so it knows how high up it should show in the feed. The calculation is performed inside the [computeRanking](https://github.com/elijahleinkram/feed-samples/edit/master/ranking/computeRanking) function. 
 
-The function takes the 3 classes as input, and spits back a number as an output. And that number is the ranking of the post.
+The function takes the 3 classes as input, and spits back a number as an output. 
+
+And that number is the ranking of the post.
 
 # Rules
 
