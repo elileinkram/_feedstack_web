@@ -27,7 +27,7 @@ A [Post](https://github.com/elijahleinkram/feed-samples/blob/master/classes/post
 
 Each post has a ranking. The ranking is calculated by the [computeRanking](https://github.com/elijahleinkram/feed-samples/blob/master/ranking/computeRanking) function. The higher the ranking the higher the post will show in the feed. 
 
-You can write your own function, but the template must be the same as [this](https://github.com/elijahleinkram/feed-samples/blob/master/ranking/computeRanking). Else, it will not work.
+You can write your own function, but the template must be identical to [this](https://github.com/elijahleinkram/feed-samples/blob/master/ranking/computeRanking). Else, it will not work.
 
 # Rules
 
