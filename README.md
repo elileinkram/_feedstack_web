@@ -6,6 +6,8 @@ Each post has a ranking. The ranking is calculated by the [computeRanking](https
 
 You can write your own functions, but the layout should look something like [this](https://github.com/elijahleinkram/feed-samples/blob/master/ranking/compute_ranking).
 
+Once you have written your own [computeRanking](https://github.com/elijahleinkram/feed-samples/blob/master/ranking/compute_ranking) function, you can upload the file which contain the function to the app like this.
+
 # Rules
 
 If the ranking is less than or equal to zero, the post will be excluded from the feed. 
@@ -30,8 +32,6 @@ The point of Jasper is to give us humans,
 
 1. Transparency as to why posts end up in our feeds. 
 2. Control over the algorithms that determine our feeds. 
-
-# How do I upload my feed?
 
 [<img src="https://j.gifs.com/WLGmOE.gif" width="50%">](https://j.gifs.com/WLGmOE.gif)
 
