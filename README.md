@@ -4,9 +4,7 @@ A [Post](https://github.com/elijahleinkram/feed-samples/blob/master/classes/post
 
 Each post has a ranking. The ranking is calculated by the [computeRanking](https://github.com/elijahleinkram/feed-samples/blob/master/ranking/compute_ranking) function. The higher the ranking the higher the post will show in the feed. 
 
-You can write your own functions, but the layout should look something like [this](https://github.com/elijahleinkram/feed-samples/blob/master/ranking/compute_ranking).
-
-Once you have written your own [computeRanking](https://github.com/elijahleinkram/feed-samples/blob/master/ranking/compute_ranking) function, you can upload the file which contain the function to the app like this.
+You can write your own functions, but the layout should look something like [this](https://github.com/elijahleinkram/feed-samples/blob/master/ranking/compute_ranking). To upload the function to the app, follow [these directions](https://gifs.com/gif/jasper-WLGmOE).
 
 # Rules
 
@@ -33,7 +31,7 @@ The point of Jasper is to give us humans,
 1. Transparency as to why posts end up in our feeds. 
 2. Control over the algorithms that determine our feeds. 
 
-[<img src="https://j.gifs.com/WLGmOE.gif" width="50%">](https://j.gifs.com/WLGmOE.gif)
+
 
 
 
