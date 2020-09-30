@@ -27,7 +27,7 @@ class Reader {
         this.hasViewedPost = myViews.get('posts').get('madeBy').get(authorID).has(post.postID)
 
         // type: number
-        // description: number of comments from people the reader follows
+        // description: number of comments from people the reader follows 
         this.numberOfCommentsFromPeopleTheReaderFollows = new Set([...post.userComments].filter(userID => isFollowing.has(userID))).size
 
         // type: number
