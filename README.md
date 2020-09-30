@@ -29,7 +29,7 @@ You are provided with 3 classes.
 
 We use these classes to calculate a ranking for the post so that it knows how high it should show in the feed. 
 
-The calculation is to be performed inside the [computeRanking](https://github.com/elijahleinkram/feed-samples/edit/master/ranking/computeRanking) function. It takes the 3 classes as input, and returns a number as output. That number becomes the ranking of the post.
+The calculation is to be performed inside the [computeRanking](https://github.com/elijahleinkram/feed-samples/edit/master/ranking/computeRanking) function. The 3 classes enter as input, and the function a number as output. That number becomes the ranking of the post.
 
 The code must be written with the same boilerplate as the [computeRanking](https://github.com/elijahleinkram/feed-samples/edit/master/ranking/computeRanking) function. Else, it will not work.
 
