@@ -37,10 +37,6 @@ Q. What if they have the same ranking?
 A. Then the order will be random.
 
 
-[Author](https://github.com/elijahleinkram/feed-samples/blob/master/classes/author.js), [Post](https://github.com/elijahleinkram/feed-samples/blob/master/classes/post.js) and [Reader](https://github.com/elijahleinkram/feed-samples/blob/master/classes/reader.js).
-
-
-
 
 
 
