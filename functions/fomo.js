@@ -10,11 +10,11 @@ module.exports = {
 
         }
         
-        const numberOfCommentsFromPeopleTheReaderFollows = reader.numberOfCommentsFromPeopleTheReaderFollows;
+        const numberOfComments = reader.numberOfCommentsFromPeopleTheReaderFollows;
         
-        const numberOfReactionsFromPeopleTheReaderFollows = reader.numberOfReactionsFromPeopleTheReaderFollows;
+        const numberOfReactions = reader.numberOfReactionsFromPeopleTheReaderFollows;
         
-        ranking = numberOfCommentsFromPeopleTheReaderFollows + numberOfReactionsFromPeopleTheReaderFollows;
+        ranking = numberOfComments + numberOfReactions;
         
         return ranking;
 
