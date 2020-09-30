@@ -27,7 +27,7 @@ We provide you with 3 classes. [Author](https://github.com/elijahleinkram/feed-s
 
 # Rules
 
-If the ranking is less than or equal to zero, the post will be excluded from the feed. The feed sorts posts from highest to lowest. That means that if postA has a ranking of 100 and postB has a ranking of 3, then postA will go before postB in the feed. 
+If the ranking is less than or equal to zero, the post will be excluded from the feed. The feed sorts posts from highest to lowest. That means that if postA has a ranking of 100 and postB has a ranking of 3, then postA will go before postB. 
 
 Q. What if they have the same ranking?
 
