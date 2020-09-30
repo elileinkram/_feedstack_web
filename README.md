@@ -33,7 +33,7 @@ The feed then sorts the posts from highest to lowest. That means that if postA h
 
 Q. What if they have the same ranking?
 
-A. If they are the same ranking then the order will be random.
+A. Then the order will be random.
 
 
 
