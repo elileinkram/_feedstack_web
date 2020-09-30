@@ -26,7 +26,7 @@ A. Then the order will be random.
 
 # What's the point?
 
-The point of Jasper is to solve to problems.
+The point of Jasper is to give us consumers...
 
 1. Transparency as to why posts end up in our feeds. 
 2. Control over the algorithms that determine our feeds. 
