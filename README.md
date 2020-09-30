@@ -31,9 +31,8 @@ The point of Jasper is to give us humans,
 1. Transparency as to why posts end up in our feeds. 
 2. Control over the algorithms that determine our feeds. 
 
+[<img src="https://j.gifs.com/WLGmOE.gif" width="50%">](https://j.gifs.com/WLGmOE.gif)
 
-
-[<iframe src='//gifs.com/embed/jasper-WLGmOE' frameborder='0' scrolling='no' width='720px' height='1396px' style='-webkit-backface-visibility: hidden;-webkit-transform: scale(1);' ></iframe>](gifs.com/embed/jasper-WLGmOE)
 
 
 
