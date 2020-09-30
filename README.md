@@ -2,20 +2,35 @@
 
 Jasper is a programmable social network. 
 
-We give people the tools to build custom-made feeds. 
+We give people the tools to build custom-made feeds.
 
 # How it works
 
-A [Post](https://github.com/elijahleinkram/feed-samples/blob/master/classes/post.js) enters the feed. The person who makes the post is the [Author](https://github.com/elijahleinkram/feed-samples/blob/master/classes/author.js). The person who views the post is the [Reader](https://github.com/elijahleinkram/feed-samples/blob/master/classes/reader.js).
+Jasper is a programmable social network.
 
-Each post has a ranking. The ranking is calculated by the [computeRanking](https://github.com/elijahleinkram/feed-samples/blob/master/ranking/compute_ranking) function. The higher the ranking the higher the post will show in the feed. 
+We give people the tools to build their own ranking algorithms that can be used to make purpose-built feeds.
 
-You can write your own [computeRanking](https://github.com/elijahleinkram/feed-samples/blob/master/ranking/compute_ranking) function. The layout should look something like [this](https://github.com/elijahleinkram/feed-samples/blob/master/ranking/compute_ranking). 
+How does it work?
 
-You can use the new algorithm, to create a feed. The feed will filter through content based on the
-[computeRanking](https://github.com/elijahleinkram/feed-samples/blob/master/ranking/compute_ranking) function.
+Each post has a number associated with it. This number is called the ranking. Posts with higher rankings
+will feature in the feed before posts with lower rankings.
 
-Watch [this clip](https://j.gifs.com/K1pmOx.gif) to learn how to upload your function to the app so you can start seeing what you want to see.
+What determines the value of the ranking is the algorithm. The algorithm is a function which
+takes in input, and spits back a number as ouptut.
+
+As each post enters the algorithm, it is up to the user to decide what number the algorithm should return.
+
+We provide you with 3 classes which will help you determine the ranking.
+
+Author, Reader and Post.
+
+These classes are sent into the computeRanking function as input, and the function then returns the ranking for the post.
+
+By accessing the properties of these classes, you will be able to tell the algorithm exactly what posts you want to see.
+
+If the algorithm returns a number that is less than or equal to zero, the post will not enter the feed at all.
+
+After you have written the computeRanking function. You can upload it to the app. And create a new feed that shows you content based on the new algorithm.
 
 # Rules
 
