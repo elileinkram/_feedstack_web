@@ -13,7 +13,7 @@ You can write your own [computeRanking](https://github.com/elijahleinkram/feed-s
 You can use the new algorithm, to create a feed. The feed will filter through content based on the
 [computeRanking](https://github.com/elijahleinkram/feed-samples/blob/master/ranking/compute_ranking) function.
 
-Watch [this clip](https://j.gifs.com/K1pmOx.gif) to learn how to upload your function to the app.
+Watch [this clip](https://j.gifs.com/K1pmOx.gif) to learn how to upload your function to the app so you can start seeing posts you want to see.
 
 # Rules
 
