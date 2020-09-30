@@ -3,6 +3,7 @@ module.exports = {
     computeRanking: function (author, post, reader) {
 
         // write inside here...
+        
         return 0;
 
 }
