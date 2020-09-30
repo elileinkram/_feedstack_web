@@ -11,7 +11,7 @@ And at Jasper, we aim to fix that.
 
 # How it works
 
-We provide you with 3 classes. Author, Post and Reader. You can find these objects and a description of their fields in the 'classes' directory. One of the fields belonging to Post, is hashtags. Hashtags is a set of strings, containing the hashtags the user has included within the post. By accessing hashtags you can show posts of a certain type, say "dogs", or "paris". 
+We provide you with 3 classes. Author, Post and Reader. You can find these objects and a description of their fields in the 'classes' directory. One of the fields belonging to Post, is hashtags. Hashtags is a set of strings, containing the hashtags the user has included within the post. By accessing hashtags you can show posts of a certain type, say "dogs", or "paris" etc. There are heaps of other interesting things you can access. Go wild! 
 
 # Showing posts
 
