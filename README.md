@@ -18,17 +18,9 @@ This function takes in 3 classes as input.
 
 And then spits back a number as output, which becomes the new ranking.
 
-If [computeRanking](https://github.com/elijahleinkram/jasper/blob/master/ranking/compute_ranking) returns a number that is less than or equal to zero, the post will not enter the feed at all.
-
 # Rules
 
-If the ranking is less than or equal to zero, the post will be excluded from the feed. 
-
-The feed sorts posts from highest to lowest. That means that if postA has a ranking of 100 and postB has a ranking of 3, then postA will be served before postB.
-
-Q. What if they have the same ranking?
-
-A. Then the order will be random.
+If [computeRanking](https://github.com/elijahleinkram/jasper/blob/master/ranking/compute_ranking) returns a number that is less than or equal to zero, the post will not enter the feed at all.
 
 # Examples
 
