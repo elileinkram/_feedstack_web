@@ -33,6 +33,15 @@ The code must be written with the same boilerplate as the [computeRanking](https
 
 The function takes in the classes as input, and returns a number as output. That number becomes the new ranking of the post. 
 
+A [Post](https://github.com/elijahleinkram/feed-samples/blob/master/classes/post.js) enters the feed. The person who made the [Post](https://github.com/elijahleinkram/feed-samples/blob/master/classes/post.js) is the [Author](https://github.com/elijahleinkram/feed-samples/blob/master/classes/author.js). The person viewing the [Post](https://github.com/elijahleinkram/feed-samples/blob/master/classes/post.js) is the [Reader](https://github.com/elijahleinkram/feed-samples/blob/master/classes/reader.js).
+
+The post is of type Post.
+The reader is of type Reader.
+The author is of type Author.
+
+Each post has a value. That value is computed by the computeRanking function. (which you can change)
+The higher the value the 'higher up' the post will show in the feed.
+
 # Rules
 
 If the ranking is less than or equal to zero, the post will be excluded from the feed. The feed sorts posts from highest to lowest. That means that if postA has a ranking of 100 and postB has a ranking of 3, then postA will go before postB. 
