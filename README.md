@@ -23,7 +23,7 @@ And at Jasper, we aim to fix that.
 
 # How it works
 
-We provide you with 3 classes. Author, Post and Reader. You can find these classes and a description of their properties in the 'classes' directory. You then export a function called computeRanking. Compute ranking takes in the 3 classes as input, and spits back a number as an output. That number is the ranking of the post.
+We provide you with 3 classes. Author, Post and Reader. You can find these classes and a description of their properties in the 'classes' directory. You can then export a function called computeRanking. Compute ranking takes in the 3 classes as input, and spits back a number as an output. That number is the ranking of the post.
 
 # Rules
 
