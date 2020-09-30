@@ -2,7 +2,7 @@
 
 Here are some examples of feeds that you can create. 
 
-All of these feeds curate content a different way. Some show you posts of dogs, some show you posts your friends have reacted to, some might even show you posts that most people have not seen. 
+All of these feeds curate content in a different way. Some show you posts of dogs, some show you posts your friends have reacted to, some might even show you posts that most people have not seen. 
 
 # Examples
 
