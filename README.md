@@ -10,7 +10,7 @@ You can write your own functions, but the layout should look something like [thi
 
 If the ranking is less than or equal to zero, the post will be excluded from the feed. 
 
-The feed sorts posts from highest to lowest. That means that if postA has a ranking of 100 and postB has a ranking of 3, then postA will go before postB.
+The feed sorts posts from highest to lowest. That means that if postA has a ranking of 100 and postB has a ranking of 3, then postA will be served before postB.
 
 Q. What if they have the same ranking?
 
