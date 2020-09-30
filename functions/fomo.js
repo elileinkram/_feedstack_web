@@ -1,4 +1,4 @@
-// "Show me posts my friends are into"
+// "Show me posts that my friends are into"
 
 module.exports = {
 
