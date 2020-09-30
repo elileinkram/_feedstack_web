@@ -20,7 +20,7 @@ And then spits back a number as output, which becomes the new ranking.
 
 Implement [computeRanking](https://github.com/elijahleinkram/jasper/blob/master/ranking/compute_ranking) to create a custom feed that shows you what you want.
 
-Once you have implemented [computeRanking](https://github.com/elijahleinkram/jasper/blob/master/ranking/compute_ranking). You can upload the function to the app. 
+When you have implemented [computeRanking](https://github.com/elijahleinkram/jasper/blob/master/ranking/compute_ranking), you can upload the function to the app. 
 
 If you need help uploading your code watch [this](https://j.gifs.com/K1pmOx.gif).
 
