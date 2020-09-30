@@ -8,7 +8,7 @@ All of these feeds curate content a different way. Some show you posts of dogs, 
 
 [In Dogs We Trust](https://github.com/elijahleinkram/feed-samples/blob/master/functions/in_dogs_we_trust.js)
 
-[The Road Not Taken](https://github.com/elijahleinkram/feed-samples/blob/master/functions/road_not_taken.js)
+[The Road Not Taken](https://github.com/elijahleinkram/feed-samples/blob/master/functions/the_road_not_taken.js)
 
 [FOMO](https://github.com/elijahleinkram/feed-samples/blob/master/functions/fomo.js)
 
