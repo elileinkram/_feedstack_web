@@ -29,7 +29,7 @@ A post with a higher ranking will be served before a post with a lower ranking.
 
 The ranking of a post is calculated by the computeRanking function. 
 
-You can program the computeRanking function to show you posts that you want to see. The code must be written with the same boilerplate as the [computeRanking](https://github.com/elijahleinkram/feed-samples/edit/master/ranking/computeRanking) function. Else, it will not work.
+You can modify the function to show you posts that you want. The code must be written with the same boilerplate as [this](https://github.com/elijahleinkram/feed-samples/edit/master/ranking/computeRanking). Else, it will not work.
 
 The function takes in 3 classes as input. 
 
