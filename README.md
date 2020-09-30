@@ -10,7 +10,7 @@ Each post has a ranking. The ranking is calculated by the [computeRanking](https
 
 You can write your own [computeRanking](https://github.com/elijahleinkram/feed-samples/blob/master/ranking/compute_ranking) function. The layout should look something like [this](https://github.com/elijahleinkram/feed-samples/blob/master/ranking/compute_ranking). 
 
-You can use the new algorithm, to create a feed. The feed will filter through the content based on the
+You can use the new algorithm, to create a feed. The feed will filter through content based on the
 [computeRanking](https://github.com/elijahleinkram/feed-samples/blob/master/ranking/compute_ranking) function.
 
 Watch [this clip](https://j.gifs.com/K1pmOx.gif) to learn how to upload your function to the app.
