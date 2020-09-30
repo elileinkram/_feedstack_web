@@ -2,7 +2,7 @@
 
 Jasper is a programmable social network. 
 
-We give people the tools to build their own ranking algorithms,so they can custom build their own feeds. 
+We give people the tools to build their own ranking algorithms,so they can build custom-made feeds. 
 
 # How it works
 
