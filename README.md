@@ -23,7 +23,9 @@ And at Jasper, we aim to fix that.
 
 # How it works
 
-Each post has a ranking. A post with a higher ranking will be served before a post with a lower ranking. 
+Each post has a ranking. 
+
+A post with a higher ranking will be served before a post with a lower ranking. 
 
 The ranking of a post is calculated by the computeRanking function. You can write your own computeRanking function to program the feed to show posts that you want to see.
 
