@@ -3,7 +3,7 @@ module.exports = {
     computeRanking: function (author, post, reader) {
     
         // write code inside here
-        // return number
+        // function must return number
 
         return 0;    
 
