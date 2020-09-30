@@ -16,7 +16,7 @@ Q. What if they have the same ranking?
 
 A. Then the order will be random.
 
-# Examples
+# Here are some examples
 
 [In Dogs We Trust](https://github.com/elijahleinkram/feed-samples/blob/master/functions/in_dogs_we_trust.js)
 
