@@ -31,7 +31,8 @@ If the ranking is greater than 0. Then the post will be included in the feed. If
 
 The feed then sorts the posts from highest to lowest. That means that if postA has a ranking of 100 and postB has a ranking of 3, then postA will go before postB in the feed. 
 
-Q. What if they have the same ranking?\n
+Q. What if they have the same ranking?
+
 A. If they are the same ranking then the order will be random.
 
 
