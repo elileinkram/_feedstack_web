@@ -22,7 +22,7 @@ And then spits back a number as output, which becomes the new ranking.
 
 If [computeRanking](https://github.com/elijahleinkram/jasper/blob/master/ranking/compute_ranking) returns a number that is less than or equal to zero, the post will not enter the feed at all.
 
-If you write your own [computeRanking](https://github.com/elijahleinkram/jasper/blob/master/ranking/compute_ranking) function be sure it follows the same structure as the one shown [here](https://github.com/elijahleinkram/jasper/blob/master/ranking/compute_ranking). 
+If you write your own [computeRanking](https://github.com/elijahleinkram/jasper/blob/master/ranking/compute_ranking) function make sure it follows the same structure as the one shown [here](https://github.com/elijahleinkram/jasper/blob/master/ranking/compute_ranking). 
 
 # Examples
 
