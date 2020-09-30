@@ -1,9 +1,11 @@
 module.exports = {
 
     computeRanking: function (author, post, reader) {
-
-        // write inside here...
         
-        return 0;
+        let ranking = 0;
+        
+        // do something with ranking...
+        
+        return ranking;
 
 }
