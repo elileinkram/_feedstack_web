@@ -23,25 +23,19 @@ And at Jasper, we aim to fix that.
 
 # How it works
 
-Each post has a ranking. 
-
-A post with a higher ranking will be served before a post with a lower ranking. 
+Posts have rankings. Posts with higher rankings will be served before posts with lower rankings. 
 
 The ranking of a post is calculated by the computeRanking function. 
 
+The function takes in 3 classes as input. [Author](https://github.com/elijahleinkram/feed-samples/blob/master/classes/author.js), [Post](https://github.com/elijahleinkram/feed-samples/blob/master/classes/post.js) and [Reader](https://github.com/elijahleinkram/feed-samples/blob/master/classes/reader.js). And spits back a number as output.
+
+The number becomes the ranking of the post.
+
 You can modify the function to show you posts that you want. The code must be written with the same boilerplate as [this](https://github.com/elijahleinkram/feed-samples/edit/master/ranking/computeRanking). Else, it will not work.
-
-The function takes in 3 classes as input. 
-
-[Author](https://github.com/elijahleinkram/feed-samples/blob/master/classes/author.js), [Post](https://github.com/elijahleinkram/feed-samples/blob/master/classes/post.js) and [Reader](https://github.com/elijahleinkram/feed-samples/blob/master/classes/reader.js).
-
-These classes provide you with information about the author, post and reader.
 
 # Rules
 
 If the ranking is less than or equal to zero, the post will be excluded from the feed. The feed sorts posts from highest to lowest. That means that if postA has a ranking of 100 and postB has a ranking of 3, then postA will go before postB.
-
-
 
 Q. What if they have the same ranking?
 
