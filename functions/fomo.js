@@ -1,4 +1,4 @@
-// Show me posts that I have missed, but my friends have not
+// "Show me posts my friends are into and only ones that I have not seen yet"
 
 module.exports = {
 
