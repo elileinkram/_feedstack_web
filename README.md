@@ -25,11 +25,9 @@ And at Jasper, we aim to fix that.
 
 We provide you with 3 classes. [Author](https://github.com/elijahleinkram/feed-samples/blob/master/classes/author.js), [Post](https://github.com/elijahleinkram/feed-samples/blob/master/classes/post.js) and [Reader](https://github.com/elijahleinkram/feed-samples/blob/master/classes/reader.js).
 
-We use these classes to derive a ranking for the post so it knows how high up it should show in the feed. The calculation is performed inside the [computeRanking](https://github.com/elijahleinkram/feed-samples/edit/master/ranking/computeRanking) function. 
+We use these classes to derive a ranking for the post so it knows how high up it should show in the feed. You can calculate the ranking of the post using the properties of these classes.
 
-The function takes the 3 classes as input, and spits back a number as an output. 
-
-And that number is the ranking of the post.
+The code must be written inside the [computeRanking](https://github.com/elijahleinkram/feed-samples/edit/master/ranking/computeRanking) function. Else, it will not work.
 
 # Rules
 
