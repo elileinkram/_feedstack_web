@@ -7,8 +7,12 @@ module.exports = {
             return 0;
 
         }
+        
+        const numberOfCommentsFromPeopleTheReaderFollows = reader.commentsFromPeopleTheReaderFollows.size;
+        
+        const numberOfReactionsFromPeopleTheReaderFollows = reader.reactionsFromPeopleTheReaderFollows.size;
 
-        return reader.commentsFromPeopleTheReaderFollows.size + reader.reactionsFromPeopleTheReaderFollows.size;
+        return numberOfCommentsFromPeopleTheReaderFollows + numberOfReactionsFromPeopleTheReaderFollows;
 
     }
 
