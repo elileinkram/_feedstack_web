@@ -23,16 +23,10 @@ And at Jasper, we aim to fix that.
 
 # How it works
 
-Posts have rankings. Posts with higher rankings will be served before posts with lower rankings. 
+A [Post](https://github.com/elijahleinkram/feed-samples/blob/master/classes/post.js) enters the feed. The person who made the [Post](https://github.com/elijahleinkram/feed-samples/blob/master/classes/post.js) is the [Author](https://github.com/elijahleinkram/feed-samples/blob/master/classes/author.js). The person viewing the [Post](https://github.com/elijahleinkram/feed-samples/blob/master/classes/post.js) is the [Reader](https://github.com/elijahleinkram/feed-samples/blob/master/classes/reader.js).
 
-The ranking is calculated by the computeRanking function. 
-
-The function takes in 3 classes as input. [Author](https://github.com/elijahleinkram/feed-samples/blob/master/classes/author.js), [Post](https://github.com/elijahleinkram/feed-samples/blob/master/classes/post.js) and [Reader](https://github.com/elijahleinkram/feed-samples/blob/master/classes/reader.js). 
-And spits back a number as output.
-
-That number becomes the ranking of the post.
-
-You can modify the function to show you posts that you want. The code must be written with the same boilerplate as [this](https://github.com/elijahleinkram/feed-samples/edit/master/ranking/computeRanking). Else, it will not work.
+Each post has a value. That value is calculated by the [computeRanking](https://github.com/elijahleinkram/feed-samples/blob/master/ranking/computeRanking) function. (which you can change)
+The higher the value the 'higher up' the post will show in the feed. 
 
 # Rules
 
@@ -43,6 +37,7 @@ Q. What if they have the same ranking?
 A. Then the order will be random.
 
 
+[Author](https://github.com/elijahleinkram/feed-samples/blob/master/classes/author.js), [Post](https://github.com/elijahleinkram/feed-samples/blob/master/classes/post.js) and [Reader](https://github.com/elijahleinkram/feed-samples/blob/master/classes/reader.js).
 
 
 
