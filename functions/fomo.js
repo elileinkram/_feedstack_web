@@ -1,3 +1,5 @@
+// Show me posts that I have missed, but my friends have not
+
 module.exports = {
 
     computeRanking: function (author, post, reader) {
