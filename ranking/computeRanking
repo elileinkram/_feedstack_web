@@ -4,7 +4,7 @@ module.exports = {
         
         let ranking = 0;
         
-        // do something with ranking...
+        // change the ranking...
         
         return ranking;
 
