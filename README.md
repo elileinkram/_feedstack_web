@@ -6,11 +6,15 @@ Each post has a ranking. The ranking is calculated by the [computeRanking](https
 
 You can write your own functions, but the layout should look something like [this](https://github.com/elijahleinkram/feed-samples/blob/master/ranking/compute_ranking).
 
-# Feed samples for Jasper 
+# Rules
 
-Here are some examples of feeds that you can create. 
+If the ranking is less than or equal to zero, the post will be excluded from the feed. 
 
-All of these feeds curate content in a different way. Some show you posts of dogs, some show you posts your friends have reacted to, some might even show you posts that most people have not seen. 
+The feed sorts posts from highest to lowest. That means that if postA has a ranking of 100 and postB has a ranking of 3, then postA will go before postB.
+
+Q. What if they have the same ranking?
+
+A. Then the order will be random.
 
 # Examples
 
@@ -29,15 +33,7 @@ The main idea behind Jasper, is that as consumers of social products, we have mi
 
 And at Jasper, we aim to fix that.
 
-# Rules
 
-If the ranking is less than or equal to zero, the post will be excluded from the feed. 
-
-The feed sorts posts from highest to lowest. That means that if postA has a ranking of 100 and postB has a ranking of 3, then postA will go before postB.
-
-Q. What if they have the same ranking?
-
-A. Then the order will be random.
 
 
 
