@@ -27,11 +27,11 @@ class Reader {
         this.hasViewedPost = myViews.get('posts').get('madeBy').get(authorID).has(post.postID)
 
         // type: Set <string>
-        // description: userIDs of people the reader follows who have also commented on this post
+        // description: userIDs of people the reader follows who have commented on this post
         this.commentsFromPeopleTheReaderFollows = new Set([...post.userComments].filter(userID => isFollowing.has(userID)))
 
         // type: Set <string>
-        // description: userIDs of people the reader follows who have also reacted to this post
+        // description: userIDs of people the reader follows who have reacted to this post
         this.reactionsFromPeopleTheReaderFollows = new Set([...post.userReactions].filter(userID => isFollowing.has(userID)))
 
     }
