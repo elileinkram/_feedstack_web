@@ -23,7 +23,7 @@ And at Jasper, we aim to fix that.
 
 # How it works
 
-We provide you with 3 classes. 
+You are provided with three classes. 
 
 [Author](https://github.com/elijahleinkram/feed-samples/blob/master/classes/author.js), [Post](https://github.com/elijahleinkram/feed-samples/blob/master/classes/post.js) and [Reader](https://github.com/elijahleinkram/feed-samples/blob/master/classes/reader.js).
 
