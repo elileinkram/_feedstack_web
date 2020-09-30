@@ -31,8 +31,7 @@ The function takes in 3 classes as input.
 
 [Author](https://github.com/elijahleinkram/feed-samples/blob/master/classes/author.js), [Post](https://github.com/elijahleinkram/feed-samples/blob/master/classes/post.js) and [Reader](https://github.com/elijahleinkram/feed-samples/blob/master/classes/reader.js).
 
-These classes provide you with information about the author, post and reader. Read up on these properties and you will
-be able to filter through posts in a very creative way.
+These classes provide you with information about the author, post and reader.
 
 # Rules
 
