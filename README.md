@@ -10,7 +10,9 @@ Each post has a number associated with it. This number is called the ranking.
 
 Posts with higher rankings will feature in the feed before posts with lower rankings.
 
-The value of the ranking is calculated by the [computeRanking](https://github.com/elijahleinkram/jasper/blob/master/ranking/compute_ranking) function. The function takes in relevant information as input, and spits back a number as ouptut. That number becomes the ranking.
+The value of the ranking is calculated by the [computeRanking](https://github.com/elijahleinkram/jasper/blob/master/ranking/compute_ranking) function. 
+
+The function takes in relevant information as input, and spits back a number as ouptut. That number becomes the ranking.
 
 As each post enters the algorithm, it is up to the user to decide what number [computeRanking](https://github.com/elijahleinkram/jasper/blob/master/ranking/compute_ranking) should return.
 
