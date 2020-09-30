@@ -10,9 +10,9 @@ module.exports = {
 
         }
         
-        const numberOfCommentsFromPeopleTheReaderFollows = reader.commentsFromPeopleTheReaderFollows.size;
+        const numberOfCommentsFromPeopleTheReaderFollows = reader.numberOfCommentsFromPeopleTheReaderFollows;
         
-        const numberOfReactionsFromPeopleTheReaderFollows = reader.reactionsFromPeopleTheReaderFollows.size;
+        const numberOfReactionsFromPeopleTheReaderFollows = reader.numberOfReactionsFromPeopleTheReaderFollows;
         
         ranking = numberOfCommentsFromPeopleTheReaderFollows + numberOfReactionsFromPeopleTheReaderFollows;
         
