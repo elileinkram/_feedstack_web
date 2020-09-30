@@ -12,7 +12,7 @@ Posts with higher rankings will feature in the feed before posts with lower rank
 
 The value of the ranking is calculated by the [computeRanking](https://github.com/elijahleinkram/jasper/blob/master/ranking/compute_ranking) function.
 
-The computeRanking function takes in 3 classes as input.
+This function takes in 3 classes as input.
 
 Author, Reader and Post.
 
