@@ -31,6 +31,8 @@ We use these classes to derive a ranking for the post so that it knows how high 
 
 The code must be written with the same boilerplate as the [computeRanking](https://github.com/elijahleinkram/feed-samples/edit/master/ranking/computeRanking) function. Else, it will not work.
 
+The function takes in the classes as input, and returns a number as output. That number becomes the new ranking of the post. 
+
 # Rules
 
 If the ranking is less than or equal to zero, the post will be excluded from the feed. The feed sorts posts from highest to lowest. That means that if postA has a ranking of 100 and postB has a ranking of 3, then postA will go before postB. 
