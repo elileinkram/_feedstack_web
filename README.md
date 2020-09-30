@@ -25,7 +25,7 @@ And at Jasper, we aim to fix that.
 
 Posts have rankings. Posts with higher rankings will be served before posts with lower rankings. 
 
-The ranking of a post is calculated by the computeRanking function. 
+The ranking is calculated by the computeRanking function. 
 
 The function takes in 3 classes as input. [Author](https://github.com/elijahleinkram/feed-samples/blob/master/classes/author.js), [Post](https://github.com/elijahleinkram/feed-samples/blob/master/classes/post.js) and [Reader](https://github.com/elijahleinkram/feed-samples/blob/master/classes/reader.js). And spits back a number as output.
 
