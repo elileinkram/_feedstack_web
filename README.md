@@ -23,21 +23,22 @@ And at Jasper, we aim to fix that.
 
 # How it works
 
-You are provided with 3 classes. 
+Each post has a ranking. A post with a higher ranking will be served before a post with a lower ranking. 
+
+The ranking of a post is calculated by the computeRanking function. You can write your own computeRanking function to program the feed to show posts that you want to see.
+
+The function takes in 3 classes as input. 
 
 [Author](https://github.com/elijahleinkram/feed-samples/blob/master/classes/author.js), [Post](https://github.com/elijahleinkram/feed-samples/blob/master/classes/post.js) and [Reader](https://github.com/elijahleinkram/feed-samples/blob/master/classes/reader.js).
 
-We use these classes to calculate a ranking for posts so that they know where they belong in the feed. 
-
-The calculation is to be performed inside the [computeRanking](https://github.com/elijahleinkram/feed-samples/edit/master/ranking/computeRanking) function. The 3 classes enter as input, and the function returns a number as output. That number becomes the ranking of the post.
-
-Posts with a higher ranking will show higher than posts with a lower ranking.
-
-The code must be written with the same boilerplate as the [computeRanking](https://github.com/elijahleinkram/feed-samples/edit/master/ranking/computeRanking) function. Else, it will not work.
+These classes provide you with information about the author, post and reader. Read up on these properties and you will
+be able to filter through posts in a very creative way.
 
 # Rules
 
-If the ranking is less than or equal to zero, the post will be excluded from the feed. The feed sorts posts from highest to lowest. That means that if postA has a ranking of 100 and postB has a ranking of 3, then postA will go before postB. 
+If the ranking is less than or equal to zero, the post will be excluded from the feed. The feed sorts posts from highest to lowest. That means that if postA has a ranking of 100 and postB has a ranking of 3, then postA will go before postB.
+
+The code must be written with the same boilerplate as the [computeRanking](https://github.com/elijahleinkram/feed-samples/edit/master/ranking/computeRanking) function. Else, it will not work.
 
 Q. What if they have the same ranking?
 
