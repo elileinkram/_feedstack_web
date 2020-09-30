@@ -32,12 +32,6 @@ If you write your own [computeRanking](https://github.com/elijahleinkram/jasper/
 
 [FOMO](https://github.com/elijahleinkram/feed-samples/blob/master/functions/fomo.js)
 
-# But what is the point...
-
-The point of Jasper is to give us humans,
-
-1. Transparency as to why posts end up in our feeds. 
-2. Control over the algorithms that determine our feeds. 
 
 
 
