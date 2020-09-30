@@ -1,4 +1,4 @@
-// Representing the post itself
+// The post itself...
 
 class Post {
 
