@@ -1,3 +1,5 @@
+// Representing the post itself
+
 class Post {
 
     constructor(postID, hashtags, numberOfViews, userComments, userReactions, numberOfPeopleThisHasMade, whenWasThisCreated) {
