@@ -6,7 +6,7 @@ We give people the tools to build their own ranking algorithms that can be used 
 
 # How it works
 
-Each post has a number associated with it. This number is called the ranking.
+Each post has a number associated with it. The number is called a ranking.
 
 Posts with higher rankings will feature in the feed before posts with lower rankings.
 
