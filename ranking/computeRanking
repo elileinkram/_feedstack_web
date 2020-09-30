@@ -1,6 +1,6 @@
 module.exports = {
 
-    // return a number (ranking)
+    // returns a number for the post (ranking)
     computeRanking: function (author, post, reader) {
 
         // change this...
