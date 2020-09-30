@@ -27,17 +27,11 @@ You are provided with 3 classes.
 
 [Author](https://github.com/elijahleinkram/feed-samples/blob/master/classes/author.js), [Post](https://github.com/elijahleinkram/feed-samples/blob/master/classes/post.js) and [Reader](https://github.com/elijahleinkram/feed-samples/blob/master/classes/reader.js).
 
-What is the point of these classes?
-
-Well, each post has a ranking. A value attached to it which tells it how high it should show in the feed. You can decide what that vaue should be. And to help you make that decision, we provide you with some information about the post, the person who made the post, and the person reading the post. 
-
-That information is stored inside these 3 classes. 
-
-
-
 We use these classes to calculate a ranking for posts so that they know where they belong in the feed. 
 
-The calculation is to be performed inside the [computeRanking](https://github.com/elijahleinkram/feed-samples/edit/master/ranking/computeRanking) function. The 3 classes enter as input, and the function a number as output. That number becomes the ranking of the post.
+The calculation is to be performed inside the [computeRanking](https://github.com/elijahleinkram/feed-samples/edit/master/ranking/computeRanking) function. The 3 classes enter as input, and the function returns a number as output. That number becomes the ranking of the post.
+
+Posts with a higher ranking will show higher than posts with a lower ranking.
 
 The code must be written with the same boilerplate as the [computeRanking](https://github.com/elijahleinkram/feed-samples/edit/master/ranking/computeRanking) function. Else, it will not work.
 
