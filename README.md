@@ -29,7 +29,7 @@ You are provided with 3 classes.
 
 We use these classes to derive a ranking for the post so that it knows how high it should show in the feed. You can calculate the ranking of the post by accessing the object properties.
 
-The code must be written inside the [computeRanking](https://github.com/elijahleinkram/feed-samples/edit/master/ranking/computeRanking) function. Else, it will not work.
+The code must be written with the same boilerplate as [computeRanking](https://github.com/elijahleinkram/feed-samples/edit/master/ranking/computeRanking). Else, it will not work.
 
 # Rules
 
