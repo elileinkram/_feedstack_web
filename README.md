@@ -18,9 +18,7 @@ This function takes in 3 classes as input.
 
 And then spits back a number as output, which becomes the new ranking.
 
-Whoops, looks like we forgot to implement the [computeRanking](https://github.com/elijahleinkram/jasper/blob/master/ranking/compute_ranking) function. Guess we are going to have to leave that to you. 
-
-Once you have coded the function. You can upload it to the app. And a new feed will be created.
+Once you have coded your implementation of [computeRanking](https://github.com/elijahleinkram/jasper/blob/master/ranking/compute_ranking). You can upload it to the app. And a new feed will be created.
 
 If you need help uploading the function watch this clip.
 
