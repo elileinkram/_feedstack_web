@@ -27,20 +27,9 @@ You are provided with 3 classes.
 
 [Author](https://github.com/elijahleinkram/feed-samples/blob/master/classes/author.js), [Post](https://github.com/elijahleinkram/feed-samples/blob/master/classes/post.js) and [Reader](https://github.com/elijahleinkram/feed-samples/blob/master/classes/reader.js).
 
-We use these classes to derive a ranking for the post so that it knows how high it should show in the feed. You can calculate the ranking of the post by accessing the object properties. 
+We use these classes to derive a ranking for the post so that it knows how high it should show in the feed. 
 
 The code must be written with the same boilerplate as the [computeRanking](https://github.com/elijahleinkram/feed-samples/edit/master/ranking/computeRanking) function. Else, it will not work.
-
-The function takes in the classes as input, and returns a number as output. That number becomes the new ranking of the post. 
-
-A [Post](https://github.com/elijahleinkram/feed-samples/blob/master/classes/post.js) enters the feed. The person who made the [Post](https://github.com/elijahleinkram/feed-samples/blob/master/classes/post.js) is the [Author](https://github.com/elijahleinkram/feed-samples/blob/master/classes/author.js). The person viewing the [Post](https://github.com/elijahleinkram/feed-samples/blob/master/classes/post.js) is the [Reader](https://github.com/elijahleinkram/feed-samples/blob/master/classes/reader.js).
-
-The post is of type Post.
-The reader is of type Reader.
-The author is of type Author.
-
-Each post has a value. That value is computed by the computeRanking function. (which you can change)
-The higher the value the 'higher up' the post will show in the feed.
 
 # Rules
 
