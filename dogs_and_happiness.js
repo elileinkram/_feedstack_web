@@ -6,7 +6,6 @@ module.exports = {
 
         const hashtags = post.hashtags
 
-
         if (hashtags.has('dog') || hashtags.has('dogs')) {
 
             const numberOfPeopleThisHasMadeHappy = post.numberOfPeopleThisHasMade.get('happy')
