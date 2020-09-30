@@ -6,25 +6,19 @@ We give people the tools to build their own ranking algorithms that can be used 
 
 # How it works
 
-Each post has a number associated with it. This number is called the ranking. 
+Each post has a number associated with it. This number is called the ranking.
 
 Posts with higher rankings will feature in the feed before posts with lower rankings.
 
-The value of the ranking is calculated by the [computeRanking](https://github.com/elijahleinkram/jasper/blob/master/ranking/compute_ranking) function. 
+The value of the ranking is calculated by the [computeRanking](https://github.com/elijahleinkram/jasper/blob/master/ranking/compute_ranking) function.
 
-The function takes in relevant information as input, and spits back a number as ouptut. That number becomes the ranking.
-
-As each post enters the algorithm, it is up to the user to decide what number [computeRanking](https://github.com/elijahleinkram/jasper/blob/master/ranking/compute_ranking) should return.
-
-We provide you with 3 classes which will help you determine the ranking.
+The computeRanking function takes in 3 classes as input.
 
 Author, Reader and Post.
 
-These classes are sent into the computeRanking function as input, and the function then returns the ranking for the post.
+And then the function spits back a number as output. That number becomes the new ranking.
 
-By accessing the properties of these classes, you will be able to tell the algorithm exactly what posts you want to see.
-
-If the algorithm returns a number that is less than or equal to zero, the post will not enter the feed at all.
+If [computeRanking](https://github.com/elijahleinkram/jasper/blob/master/ranking/compute_ranking) returns a number that is less than or equal to zero, the post will not enter the feed at all.
 
 After you have written the computeRanking function. You can upload it to the app. And create a new feed that shows you content based on the new algorithm.
 
