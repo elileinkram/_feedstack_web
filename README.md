@@ -23,6 +23,11 @@ If the ranking is greater than 0. Then the post will be included in the feed. If
 
 # Examples
 
+[In Dogs We Trust](https://github.com/elijahleinkram/feed-samples/blob/master/functions/in_dogs_we_trust.js)
+
+[Road Not Taken](https://github.com/elijahleinkram/feed-samples/blob/master/functions/road_not_taken.js)
+
+[FOMO](https://github.com/elijahleinkram/feed-samples/blob/master/functions/fomo.js)
 
 
 # These examples are just a start.
