@@ -1,6 +1,6 @@
 # About
 
-Jasper is a programmable social network. 
+Jasper is a programmable social network. We give people the tools to build their own ranking algorithms. Which in turn allows people to see content they want to see. Which also has the effect of making the idea of a social network, so much more transparent.
 
 # How it works
 
