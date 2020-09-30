@@ -12,7 +12,7 @@ Posts with higher rankings will feature in the feed before posts with lower rank
 
 The ranking is calculated by [computeRanking](https://github.com/elijahleinkram/jasper/blob/master/ranking/compute_ranking).
 
-The function takes in 3 classes as input.
+The [computeRanking](https://github.com/elijahleinkram/jasper/blob/master/ranking/compute_ranking) function takes in 3 classes as input.
 
 [Author](https://github.com/elijahleinkram/jasper/blob/master/classes/author.js), [Reader](https://github.com/elijahleinkram/jasper/blob/master/classes/reader.js) and [Post](https://github.com/elijahleinkram/jasper/blob/master/classes/post.js).
 
