@@ -1,6 +1,6 @@
 class Reader {
 
-    constructor(readerID, isFollowing, myReactions, myComments, myViews, authorID, postID) {
+    constructor(readerID, isFollowing, myReactions, myComments, myViews, authorID, post) {
 
         // type: string
         // description: a unique id to identify the reader
@@ -24,7 +24,15 @@ class Reader {
 
         // type: boolean
         // description: checks if the reader has seen this post
-        this.hasViewedPost = myViews.get('posts').get('madeBy').get(authorID).has(postID)
+        this.hasViewedPost = myViews.get('posts').get('madeBy').get(authorID).has(post.postID)
+
+        // type: Set <string>
+        // description: userIDs of people the reader follows who have also commented on this post
+        this.commentsFromPeopleTheReaderFollows = new Set([...post.userComments].filter(userID => isFollowing.has(userID)))
+
+        // type: Set <string>
+        // description: userIDs of people the reader follows who have also reacted to this post
+        this.reactionsFromPeopleTheReaderFollows = new Set([...post.userReactions].filter(userID => isFollowing.has(userID)))
 
     }
 
