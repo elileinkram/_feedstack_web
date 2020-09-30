@@ -25,9 +25,9 @@ And at Jasper, we aim to fix that.
 
 A [Post](https://github.com/elijahleinkram/feed-samples/blob/master/classes/post.js) enters the feed. The person who makes the post is the [Author](https://github.com/elijahleinkram/feed-samples/blob/master/classes/author.js). The person who views the post is the [Reader](https://github.com/elijahleinkram/feed-samples/blob/master/classes/reader.js).
 
-Each post has a ranking. The ranking is calculated by the [computeRanking](https://github.com/elijahleinkram/feed-samples/blob/master/ranking/computeRanking) function. The higher the ranking the higher the post will show in the feed. 
+Each post has a ranking. The ranking is calculated by the [computeRanking](https://github.com/elijahleinkram/feed-samples/blob/master/ranking/compute_ranking) function. The higher the ranking the higher the post will show in the feed. 
 
-You can write your own functions, but the layout should look something like [this](https://github.com/elijahleinkram/feed-samples/blob/master/ranking/computeRanking).
+You can write your own functions, but the layout should look something like [this](https://github.com/elijahleinkram/feed-samples/blob/master/ranking/compute_ranking).
 
 # Rules
 
