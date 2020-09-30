@@ -15,7 +15,7 @@ We provide you with 3 classes. Author, Post and Reader. You can find these class
 
 # Rules
 
-If the ranking is greater than 0. Then the post will be included in the feed. If the ranking is less than zero, the post will be excluded from the feed. The feed then sorts the leftover posts from highest to lowest. That means if postA has a ranking of 100 and postB has a ranking of 1, postA will go before postB. If they are the same ranking then the order will be random.
+If the ranking is greater than 0. Then the post will be included in the feed. If the ranking is less than zero, the post will be excluded from the feed. The feed then sorts the posts from highest to lowest. That means if postA has a ranking of 100 and postB has a ranking of 1, postA will go before postB. If they are the same ranking then the order will be random.
 
 # Example
 
