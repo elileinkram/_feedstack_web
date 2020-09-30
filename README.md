@@ -1,3 +1,7 @@
+# About
+
+Jasper is a programmable social network. 
+
 # How it works
 
 A [Post](https://github.com/elijahleinkram/feed-samples/blob/master/classes/post.js) enters the feed. The person who makes the post is the [Author](https://github.com/elijahleinkram/feed-samples/blob/master/classes/author.js). The person who views the post is the [Reader](https://github.com/elijahleinkram/feed-samples/blob/master/classes/reader.js).
