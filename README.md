@@ -16,7 +16,7 @@ This function takes in 3 classes as input.
 
 [Author](https://github.com/elijahleinkram/jasper/blob/master/classes/author.js), [Reader](https://github.com/elijahleinkram/jasper/blob/master/classes/reader.js) and [Post](https://github.com/elijahleinkram/jasper/blob/master/classes/post.js).
 
-And then spits back a number as output; the new ranking.
+And then spits back a number as output, which becomes the new ranking.
 
 If [computeRanking](https://github.com/elijahleinkram/jasper/blob/master/ranking/compute_ranking) returns a number that is less than or equal to zero, the post will not enter the feed at all.
 
