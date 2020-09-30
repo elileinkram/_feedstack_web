@@ -18,11 +18,17 @@ This function takes in 3 classes as input.
 
 And then spits back a number as output, which becomes the new ranking.
 
+Whoops, looks like we forgot to implement the [computeRanking](https://github.com/elijahleinkram/jasper/blob/master/ranking/compute_ranking) function. Guess we are going to have to leave that to you. 
+
+Once you have coded the function. You can upload it to the app. And a new feed will be created.
+
+If you need help uploading the function watch this clip.
+
 # Rules
 
 If [computeRanking](https://github.com/elijahleinkram/jasper/blob/master/ranking/compute_ranking) returns a number that is less than or equal to zero, the post will not enter the feed at all.
 
-If you write your own [computeRanking](https://github.com/elijahleinkram/jasper/blob/master/ranking/compute_ranking) function make sure it follows the same structure as the one shown [here](https://github.com/elijahleinkram/jasper/blob/master/ranking/compute_ranking). 
+Make sure that your implementation of [computeRanking](https://github.com/elijahleinkram/jasper/blob/master/ranking/compute_ranking) follows the same structure as the one shown [here](https://github.com/elijahleinkram/jasper/blob/master/ranking/compute_ranking). 
 
 # Examples
 
