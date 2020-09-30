@@ -18,9 +18,9 @@ The ranking is calculated by the [computeRanking](https://github.com/elijahleink
 
 And then spits back a number as output, which becomes the new ranking.
 
-Once you have coded your implementation of [computeRanking](https://github.com/elijahleinkram/jasper/blob/master/ranking/compute_ranking). You can upload it to the app. And a new feed will be created.
+Once you have coded your implementation of [computeRanking](https://github.com/elijahleinkram/jasper/blob/master/ranking/compute_ranking). You can upload it to the app. And a new feed will be created based on your implementation
 
-If you need help uploading the function watch this clip.
+If you need help uploading the function watch [this clip](https://j.gifs.com/K1pmOx.gif).
 
 # Rules
 
