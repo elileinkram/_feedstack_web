@@ -10,7 +10,7 @@ Each post has a number associated with it. This number is called the ranking.
 
 Posts with higher rankings will feature in the feed before posts with lower rankings.
 
-What determines the value of the ranking is the algorithm. The algorithm is a function which
+What determines the value of the ranking is the [computeRanking](https://github.com/elijahleinkram/jasper/blob/master/ranking/compute_ranking) function. The function which
 takes in input, and spits back a number as ouptut.
 
 As each post enters the algorithm, it is up to the user to decide what number the algorithm should return.
