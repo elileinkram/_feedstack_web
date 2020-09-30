@@ -24,7 +24,7 @@ A. Then the order will be random.
 
 [FOMO](https://github.com/elijahleinkram/feed-samples/blob/master/functions/fomo.js)
 
-# But what is the?
+# But what is the...
 
 The point of Jasper is to give us consumers...
 
