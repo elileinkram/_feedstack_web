@@ -1,10 +1,12 @@
 module.exports = {
 
     computeRanking: function (author, post, reader) {
+        
+        let ranking = 0;
 
         if (reader.hasViewedPost) {
 
-            return 0;
+            return ranking;
 
         }
         
@@ -12,7 +14,7 @@ module.exports = {
         
         const numberOfReactionsFromPeopleTheReaderFollows = reader.reactionsFromPeopleTheReaderFollows.size;
         
-        const ranking = numberOfCommentsFromPeopleTheReaderFollows + numberOfReactionsFromPeopleTheReaderFollows;
+        ranking = numberOfCommentsFromPeopleTheReaderFollows + numberOfReactionsFromPeopleTheReaderFollows;
         
         return ranking;
 
