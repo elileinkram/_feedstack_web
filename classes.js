@@ -1,17 +1,3 @@
-`
-A post enters the feed. The person who made the post is the author. The person viewing the post is the reader.
-
-The reader is of type Reader.
-The author is of type Author.
-The post is of type Post.
-
-Each post has a value. That value is computed by the computeRanking function. (which you can change)
-The higher the value the 'higher up' the post will show in the feed. 
-
-If the returned value is not positive, the post will not be included in the feed. (even at the bottom)
-
-`
-
 class Author {
 
     constructor(authorID, isFollowing, readerID) {
