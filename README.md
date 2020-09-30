@@ -18,6 +18,8 @@ The function takes in 3 classes as input.
 
 And then spits back a number as output, which becomes the new ranking.
 
+To build a custom feed, you must code your own implementation of the [computeRanking](https://github.com/elijahleinkram/jasper/blob/master/ranking/compute_ranking) function.
+
 Once you have implemented [computeRanking](https://github.com/elijahleinkram/jasper/blob/master/ranking/compute_ranking). You can upload the function to the app. 
 
 And we will generate a new feed for all the different algorithms you make.
