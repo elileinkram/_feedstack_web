@@ -18,7 +18,7 @@ The [computeRanking](https://github.com/elijahleinkram/jasper/blob/master/rankin
 
 And then spits back a number as output, which becomes the new ranking.
 
-Implement [computeRanking](https://github.com/elijahleinkram/jasper/blob/master/ranking/compute_ranking) to create a custom feed that shows you what you want.
+Implement [computeRanking](https://github.com/elijahleinkram/jasper/blob/master/ranking/compute_ranking) to create a custom feed that shows you what you want to see.
 
 Upload your implementation of [computeRanking](https://github.com/elijahleinkram/jasper/blob/master/ranking/compute_ranking) to the app so that we can generate your new feed. 
 
