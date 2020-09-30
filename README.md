@@ -27,7 +27,7 @@ You are provided with 3 classes.
 
 [Author](https://github.com/elijahleinkram/feed-samples/blob/master/classes/author.js), [Post](https://github.com/elijahleinkram/feed-samples/blob/master/classes/post.js) and [Reader](https://github.com/elijahleinkram/feed-samples/blob/master/classes/reader.js).
 
-We use these classes to calculate a ranking for the post so that it knows how high it should show in the feed. 
+We use these classes to calculate a ranking for posts so that they know where they belong in the feed. 
 
 The calculation is to be performed inside the [computeRanking](https://github.com/elijahleinkram/feed-samples/edit/master/ranking/computeRanking) function. The 3 classes enter as input, and the function a number as output. That number becomes the ranking of the post.
 
