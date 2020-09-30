@@ -27,6 +27,8 @@ A [Post](https://github.com/elijahleinkram/feed-samples/blob/master/classes/post
 
 Each post has a ranking. The ranking is calculated by the [computeRanking](https://github.com/elijahleinkram/feed-samples/blob/master/ranking/computeRanking) function. The higher the ranking the higher the post will show in the feed. 
 
+You can make your own function, but the template must be identical to [this](https://github.com/elijahleinkram/feed-samples/blob/master/ranking/computeRanking). Else, it will not work.
+
 # Rules
 
 If the ranking is less than or equal to zero, the post will be excluded from the feed. The feed sorts posts from highest to lowest. That means that if postA has a ranking of 100 and postB has a ranking of 3, then postA will go before postB.
