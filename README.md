@@ -23,7 +23,9 @@ And at Jasper, we aim to fix that.
 
 # How it works
 
-We provide you with 3 classes. [Author](https://github.com/elijahleinkram/feed-samples/blob/master/classes/author.js), [Post](https://github.com/elijahleinkram/feed-samples/blob/master/classes/post.js) and [Reader](https://github.com/elijahleinkram/feed-samples/blob/master/classes/reader.js).
+We provide you with 3 classes. 
+
+[Author](https://github.com/elijahleinkram/feed-samples/blob/master/classes/author.js), [Post](https://github.com/elijahleinkram/feed-samples/blob/master/classes/post.js) and [Reader](https://github.com/elijahleinkram/feed-samples/blob/master/classes/reader.js).
 
 We use these classes to derive a ranking for the post so it knows how high up it should show in the feed. You can calculate the ranking of the post using the properties of these classes.
 
