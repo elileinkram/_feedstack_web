@@ -22,8 +22,6 @@ Implement [computeRanking](https://github.com/elijahleinkram/jasper/blob/master/
 
 Once you have implemented [computeRanking](https://github.com/elijahleinkram/jasper/blob/master/ranking/compute_ranking). You can upload the function to the app. 
 
-And we will generate a new feed for all the different algorithms you make.
-
 If you need help uploading your code watch [this](https://j.gifs.com/K1pmOx.gif).
 
 # Rules
