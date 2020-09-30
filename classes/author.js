@@ -1,4 +1,4 @@
-// Representing the person who makes the post
+// The person who makes the post...
 
 class Author {
 
