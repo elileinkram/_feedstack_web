@@ -27,7 +27,9 @@ Each post has a ranking.
 
 A post with a higher ranking will be served before a post with a lower ranking. 
 
-The ranking of a post is calculated by the computeRanking function. You can program the computeRanking function to show you posts that you want to see.
+The ranking of a post is calculated by the computeRanking function. 
+
+You can program the computeRanking function to show you posts that you want to see. The code must be written with the same boilerplate as the [computeRanking](https://github.com/elijahleinkram/feed-samples/edit/master/ranking/computeRanking) function. Else, it will not work.
 
 The function takes in 3 classes as input. 
 
@@ -39,7 +41,7 @@ These classes provide you with information about the author, post and reader.
 
 If the ranking is less than or equal to zero, the post will be excluded from the feed. The feed sorts posts from highest to lowest. That means that if postA has a ranking of 100 and postB has a ranking of 3, then postA will go before postB.
 
-The code must be written with the same boilerplate as the [computeRanking](https://github.com/elijahleinkram/feed-samples/edit/master/ranking/computeRanking) function. Else, it will not work.
+
 
 Q. What if they have the same ranking?
 
