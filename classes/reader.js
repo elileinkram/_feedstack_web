@@ -1,4 +1,4 @@
-// Representing the person who reads the post
+// The person who reads the post...
 
 class Reader {
 
