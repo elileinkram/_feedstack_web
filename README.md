@@ -8,7 +8,7 @@ A [Post](https://github.com/elijahleinkram/feed-samples/blob/master/classes/post
 
 Each post has a ranking. The ranking is calculated by the [computeRanking](https://github.com/elijahleinkram/feed-samples/blob/master/ranking/compute_ranking) function. The higher the ranking the higher the post will show in the feed. 
 
-You can write your own functions, but the layout should look something like [this](https://github.com/elijahleinkram/feed-samples/blob/master/ranking/compute_ranking). You can then upload the function to the app.To get started, watch this clip [these directions](https://j.gifs.com/K1pmOx.gif).
+You can write your own [computeRanking](https://github.com/elijahleinkram/feed-samples/blob/master/ranking/compute_ranking) function. The layout should look something like [this](https://github.com/elijahleinkram/feed-samples/blob/master/ranking/compute_ranking). Watch [this clip](https://j.gifs.com/K1pmOx.gif) to learn how to upload your function to the app.
 
 # Rules
 
