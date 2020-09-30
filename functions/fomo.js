@@ -11,8 +11,10 @@ module.exports = {
         const numberOfCommentsFromPeopleTheReaderFollows = reader.commentsFromPeopleTheReaderFollows.size;
         
         const numberOfReactionsFromPeopleTheReaderFollows = reader.reactionsFromPeopleTheReaderFollows.size;
-
-        return numberOfCommentsFromPeopleTheReaderFollows + numberOfReactionsFromPeopleTheReaderFollows;
+        
+        const ranking = numberOfCommentsFromPeopleTheReaderFollows + numberOfReactionsFromPeopleTheReaderFollows;
+        
+        return ranking;
 
     }
 
