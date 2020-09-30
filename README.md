@@ -16,7 +16,7 @@ Q. What if they have the same ranking?
 
 A. Then the order will be random.
 
-# Here are some examples
+# Some examples
 
 [In Dogs We Trust](https://github.com/elijahleinkram/feed-samples/blob/master/functions/in_dogs_we_trust.js)
 
@@ -24,7 +24,7 @@ A. Then the order will be random.
 
 [FOMO](https://github.com/elijahleinkram/feed-samples/blob/master/functions/fomo.js)
 
-# Why would someone use this?
+# Why though?
 
 The main idea behind Jasper, is that as consumers of social products, we have missed out on 2 key things. 
 
