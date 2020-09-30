@@ -2,7 +2,7 @@ module.exports = {
 
     computeRanking: function (author, post, reader) {
 
-        // change this...
+        // write inside here...
         return 0;
 
 }
