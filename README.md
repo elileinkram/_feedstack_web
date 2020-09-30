@@ -26,13 +26,10 @@ A. Then the order will be random.
 
 # What's the point?
 
-The main idea behind Jasper, is that as consumers of social products, we have missed out on 2 key things. 
+The point of Jasper is to solve to problems.
 
 1. Transparency as to why posts end up in our feeds. 
 2. Control over the algorithms that determine our feeds. 
-
-And at Jasper, we aim to fix that.
-
 
 
 
