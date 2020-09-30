@@ -11,9 +11,7 @@ module.exports = {
 
             const numberOfPeopleThisHasMadeHappy = post.numberOfPeopleThisHasMade.get('happy')
 
-            const numberOfPeopleTheReaderFollowsWhoReactedToThisPost = reader.reactionsFromPeopleTheReaderFollows.size
-
-            ranking = numberOfPeopleThisHasMadeHappy * numberOfPeopleTheReaderFollowsWhoReactedToThisPost
+            ranking = numberOfPeopleThisHasMadeHappy
 
         }
 
