@@ -14,13 +14,11 @@ The value of the ranking is calculated by the [computeRanking](https://github.co
 
 This function takes in 3 classes as input.
 
-Author, Reader and Post.
+[Author](https://github.com/elijahleinkram/jasper/blob/master/classes/author.js), [Reader](https://github.com/elijahleinkram/jasper/blob/master/classes/reader.js) and [Post](https://github.com/elijahleinkram/jasper/blob/master/classes/post.js).
 
 And then the function spits back a number as output. That number becomes the new ranking.
 
 If [computeRanking](https://github.com/elijahleinkram/jasper/blob/master/ranking/compute_ranking) returns a number that is less than or equal to zero, the post will not enter the feed at all.
-
-After you have written the computeRanking function. You can upload it to the app. And create a new feed that shows you content based on the new algorithm.
 
 # Rules
 
