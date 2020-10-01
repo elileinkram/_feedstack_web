@@ -20,7 +20,7 @@ And then spits back a number as output, which becomes the new ranking.
 
 Upload your implementation of [computeRanking](https://github.com/elijahleinkram/jasper/blob/master/ranking/compute_ranking) to [Jasper](https://play.google.com/store/apps/details?id=com.jasper.jasper).
 
-Jasper send posts to [computeRanking](https://github.com/elijahleinkram/jasper/blob/master/ranking/compute_ranking) to [Jasper](https://play.google.com/store/apps/details?id=com.jasper.jasper) to calculate the rankings.
+[Jasper](https://play.google.com/store/apps/details?id=com.jasper.jasper) sends the posts to [computeRanking](https://github.com/elijahleinkram/jasper/blob/master/ranking/compute_ranking) for [Jasper](https://play.google.com/store/apps/details?id=com.jasper.jasper) to calculate the rankings.
 
 And a new feed will be created corresponding to the new [computeRanking](https://github.com/elijahleinkram/jasper/blob/master/ranking/compute_ranking) function.
 
