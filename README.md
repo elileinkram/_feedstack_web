@@ -26,7 +26,7 @@ If you need help uploading your code watch [this](https://j.gifs.com/K1pmOx.gif)
 
 # Rules
 
-If [computeRanking](https://github.com/elijahleinkram/jasper/blob/master/ranking/compute_ranking.js) returns a number that is less than or equal to zero, the post will not enter the feed.
+If [computeRanking](https://github.com/elijahleinkram/jasper/blob/master/ranking/compute_ranking.js) returns a number that is less than or equal to zero, then the post will not enter the feed.
 
 If your implementation of [computeRanking](https://github.com/elijahleinkram/jasper/blob/master/ranking/compute_ranking.js) does not follow the same structure as the one shown [here](https://github.com/elijahleinkram/jasper/blob/master/ranking/compute_ranking.js) then it will not work. 
 
