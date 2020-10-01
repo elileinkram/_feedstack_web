@@ -22,7 +22,7 @@ Upload your implementation of [computeRanking](https://github.com/elijahleinkram
 
 We will use your implementation to assign posts new rankings. 
 
-[Jasper](https://play.google.com/store/apps/details?id=com.jasper.jasper) will then generate a new feed corresponding to the new algorithm. 
+[Jasper](https://play.google.com/store/apps/details?id=com.jasper.jasper) will then generate a new feed based on the new algorithm. 
 
 If you need help uploading your code watch [this](https://j.gifs.com/K1pmOx.gif).
 
