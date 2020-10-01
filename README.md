@@ -8,7 +8,7 @@ We give people the tools to build their own ranking algorithms that can be used 
 
 Each post has a ranking number.
 
-The ranking is calculated by [computeRanking](https://github.com/elijahleinkram/jasper/blob/master/ranking/compute_ranking).
+The number is calculated by [computeRanking](https://github.com/elijahleinkram/jasper/blob/master/ranking/compute_ranking).
 
 The [computeRanking](https://github.com/elijahleinkram/jasper/blob/master/ranking/compute_ranking) function takes in 3 objects as input.
 
