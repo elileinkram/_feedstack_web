@@ -22,7 +22,7 @@ Upload your implementation of [computeRanking](https://github.com/elijahleinkram
 
 [Jasper](https://play.google.com/store/apps/details?id=com.jasper.jasper) will send the posts to [computeRanking](https://github.com/elijahleinkram/jasper/blob/master/ranking/compute_ranking) to calculate the rankings.
 
-And a new feed will be created.
+The posts will then enter a new feed.
 
 If you need help uploading your code watch [this](https://j.gifs.com/K1pmOx.gif).
 
