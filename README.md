@@ -14,7 +14,7 @@ The ranking is calculated by [computeRanking](https://github.com/elijahleinkram/
 
 The [computeRanking](https://github.com/elijahleinkram/jasper/blob/master/ranking/compute_ranking.js) function takes in 3 objects as input.
 
-[Author](https://github.com/elijahleinkram/jasper/blob/master/classes/author.js), [Post](https://github.com/elijahleinkram/jasper/blob/master/classes/post.js and [Reader](https://github.com/elijahleinkram/jasper/blob/master/classes/reader.js).
+[Author](https://github.com/elijahleinkram/jasper/blob/master/classes/author.js), [Post](https://github.com/elijahleinkram/jasper/blob/master/classes/post.js) and [Reader](https://github.com/elijahleinkram/jasper/blob/master/classes/reader.js).
 
 And then spits back a number as output, which becomes the new ranking.
 
