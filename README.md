@@ -8,6 +8,8 @@ We give people the tools to build their own ranking algorithms that can be used 
 
 Each post has a ranking number.
 
+Posts with higher rankings will show up in the feed before posts with lower rankings.
+
 The number is calculated by [computeRanking](https://github.com/elijahleinkram/jasper/blob/master/ranking/compute_ranking).
 
 The [computeRanking](https://github.com/elijahleinkram/jasper/blob/master/ranking/compute_ranking) function takes in 3 objects as input.
@@ -21,8 +23,6 @@ Upload your implementation of [computeRanking](https://github.com/elijahleinkram
 We will use your implementation to assign posts new rankings. 
 
 [Jasper](https://play.google.com/store/apps/details?id=com.jasper.jasper) will then generate a new feed. 
-
-Posts with higher rankings will show up in the feed before posts with lower rankings.
 
 If you need help uploading your code watch [this](https://j.gifs.com/K1pmOx.gif).
 
