@@ -8,7 +8,7 @@ We give people the tools to build their own ranking algorithms that can be used 
 
 Each post has a ranking number.
 
-Posts with higher rankings will show up in the feed before posts with lower rankings.
+A post with a higher ranking will show up in the feed before a post with a lower ranking.
 
 The number is calculated by [computeRanking](https://github.com/elijahleinkram/jasper/blob/master/ranking/compute_ranking).
 
