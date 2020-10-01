@@ -10,7 +10,7 @@ Each post has a ranking number.
 
 A post with a higher ranking will show up in the feed before a post with a lower ranking.
 
-The number is calculated by [computeRanking](https://github.com/elijahleinkram/jasper/blob/master/ranking/compute_ranking).
+The ranking number is calculated by [computeRanking](https://github.com/elijahleinkram/jasper/blob/master/ranking/compute_ranking).
 
 The [computeRanking](https://github.com/elijahleinkram/jasper/blob/master/ranking/compute_ranking) function takes in 3 objects as input.
 
