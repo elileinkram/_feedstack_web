@@ -4,7 +4,7 @@
 
 We give people the tools to build their own ranking algorithms so they can make purpose-built feeds.
 
-Currently only on android, but coming soon to IOS.
+Currently only on android, but coming soon to ios.
 
 # How it works
 
