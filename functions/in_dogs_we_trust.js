@@ -12,7 +12,7 @@ module.exports = {
 
             const numberOfPeopleThisHasMadeHappy = post.numberOfPeopleThisHasMade.get('happy');
 
-            ranking = numberOfPeopleThisHasMadeHappy;
+            ranking = numberOfPeopleThisHasMadeHappy + 1;
 
         }
 
