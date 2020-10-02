@@ -4,6 +4,8 @@
 
 We give people the tools to build their own ranking algorithms so they can make purpose-built feeds.
 
+Currently only on android, but coming soon to IOS.
+
 # How it works
 
 Each post has a ranking number.
