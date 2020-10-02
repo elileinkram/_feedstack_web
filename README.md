@@ -2,6 +2,8 @@
 
 [Jasper](https://play.google.com/store/apps/details?id=com.jasper.jasper) is a programmable social network.
 
+Currently in the form of an android app. Soon to mutate into an ios app.
+
 We give people the tools to build their own ranking algorithms so they can make purpose-built feeds.
 
 # How it works
