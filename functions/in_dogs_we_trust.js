@@ -12,7 +12,7 @@ module.exports = {
         
         for (const hashtag of hashtags) {
             
-            if (hashtag.toLowerCase().includes('dog') || hashtag.toLowerCase().includes('puppy') || hashtag.toLowerCase().includes('puppies')) {
+            if (hashtag.includes('dog') || hashtag.includes('puppy') || hashtag.includes('puppies')) {
                 
                 isDogPost = true;
                 
