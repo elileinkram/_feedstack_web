@@ -6,18 +6,30 @@ module.exports = {
 
         let ranking = 0;
 
-        const hashtags = post.hashtags;
-
-        if (hashtags.has('dog') || hashtags.has('dogs') || hashtags.has('puppy') || hashtags.has('puppies')) {
-
+        const hashtags = Array.from(post.hashtags.values());
+        
+        let isDogPost = false;
+        
+        for (const hashtag of hashtags) {
+            
+            if (hashtag.includes('dog') || hashtag.includes('puppy') || hashtag.includes('puppies')) {
+                
+                isDogPost = true;
+                
+            }
+        
+        }
+                
+        if (isDogPost) {
+    
             const numberOfPeopleThisHasMadeHappy = post.numberOfPeopleThisHasMade.get('happy');
 
-            ranking = numberOfPeopleThisHasMadeHappy + 1;
-
+            ranking = numberOfPeopleThisHasMadeHappy + 1;        
+                
         }
-
+            
         return ranking;
-
+       
     }
 
 };
