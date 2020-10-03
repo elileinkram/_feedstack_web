@@ -26,15 +26,15 @@ class Reader {
 
         // type: boolean
         // description: checks if the reader has seen this post
-        this.hasViewedPost = myViews.get('posts').get('madeBy').get(authorID).has(post.postID)
+        this.hasViewedPost = myViews.get('posts').get('madeBy').get(authorID).has(post.postID);
 
         // type: number
         // description: number of comments from people the reader follows
-        this.numberOfCommentsFromPeopleTheReaderFollows = new Set([...post.userComments].filter(userID => isFollowing.has(userID))).size
+        this.numberOfCommentsFromPeopleTheReaderFollows = new Set([...post.userComments].filter(userID => isFollowing.has(userID))).size;
 
         // type: number
         // description: number of reactions from people the reader follows
-        this.numberOfReactionsFromPeopleTheReaderFollows = new Set([...post.userReactions].filter(userID => isFollowing.has(userID))).size
+        this.numberOfReactionsFromPeopleTheReaderFollows = new Set([...post.userReactions].filter(userID => isFollowing.has(userID))).size;
 
     }
 
