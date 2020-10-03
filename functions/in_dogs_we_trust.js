@@ -6,7 +6,7 @@ module.exports = {
 
         let ranking = 0;
 
-        const hashtags = Array.from(post.hashtags.values());
+        const hashtags = Array.from(post.hashtags);
         
         let isDogPost = false;
         
