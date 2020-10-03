@@ -8,7 +8,7 @@ module.exports = {
 
         const hashtags = post.hashtags;
 
-        if (hashtags.has('dog') || hashtags.has('puppy') || hashtags.has('puppies')) {
+        if (hashtags.has('dog') || hashtags.has('dogs') || hashtags.has('puppy') || hashtags.has('puppies')) {
 
             const numberOfPeopleThisHasMadeHappy = post.numberOfPeopleThisHasMade.get('happy');
 
