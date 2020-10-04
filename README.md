@@ -4,7 +4,7 @@
 
 We give people the tools to build their own ranking algorithms so they can make purpose-built feeds.
 
-Right now [Jasper](https://play.google.com/store/apps/details?id=com.jasper.jasper) is only available on [android](https://play.google.com/store/apps/details?id=com.jasper.jasper). We will release the ios version early next week.
+Right now [Jasper](https://play.google.com/store/apps/details?id=com.jasper.jasper) is only available on [android](https://play.google.com/store/apps/details?id=com.jasper.jasper). We will release the ios version very soon.
 
 # How it works
 
