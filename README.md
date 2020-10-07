@@ -1,10 +1,10 @@
 # About
 
-[Jasper](https://play.google.com/store/apps/details?id=com.jasper.jasper) is a programmable social network.
+[Feedstack](https://play.google.com/store/apps/details?id=com.jasper.jasper) is a programmable social network.
 
 We give people the tools to build their own ranking algorithms so they can make purpose-built feeds.
 
-Right now [Jasper](https://play.google.com/store/apps/details?id=com.jasper.jasper) is only available on [android](https://play.google.com/store/apps/details?id=com.jasper.jasper). We will release the IOS version very soon.
+Right now [Feedstack](https://play.google.com/store/apps/details?id=com.jasper.jasper) is only available on [android](https://play.google.com/store/apps/details?id=com.jasper.jasper). We will release the IOS version very soon.
 
 # How it works
 
@@ -20,9 +20,9 @@ The [computeRanking](https://github.com/elijahleinkram/jasper/blob/master/rankin
 
 And then spits back a number as output, which becomes the new ranking.
 
-Upload your implementation of [computeRanking](https://github.com/elijahleinkram/jasper/blob/master/ranking/compute_ranking.js) to [Jasper](https://play.google.com/store/apps/details?id=com.jasper.jasper).
+Upload your implementation of [computeRanking](https://github.com/elijahleinkram/jasper/blob/master/ranking/compute_ranking.js) to [Feedstack](https://play.google.com/store/apps/details?id=com.jasper.jasper).
 
-[Jasper](https://play.google.com/store/apps/details?id=com.jasper.jasper) will then generate a new feed based on the new implementation. 
+[Feedstack](https://play.google.com/store/apps/details?id=com.jasper.jasper) will then generate a new feed based on the new implementation. 
 
 If you need help uploading your code watch [this](https://j.gifs.com/K1pmOx.gif).
 
