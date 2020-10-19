@@ -24,8 +24,6 @@ Upload your implementation of [computeRanking](https://github.com/elijahleinkram
 
 [Feedstack](https://play.google.com/store/apps/details?id=com.jasper.jasper) will then generate a new feed based on the new implementation. 
 
-If you need help uploading your code watch [this](https://j.gifs.com/K1pmOx.gif).
-
 # Rules
 
 If [computeRanking](https://github.com/elijahleinkram/jasper/blob/master/ranking/compute_ranking.js) returns a number that is less than or equal to zero, then the post will not enter the feed.
