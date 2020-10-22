@@ -1,6 +1,6 @@
 # About
 
-[Feedstack](https://play.google.com/store/apps/details?id=com.jasper.jasper) is a fully customizable social network.
+[Feedstack](https://play.google.com/store/apps/details?id=com.jasper.jasper) is a fully progammable social network.
 
 We give developers the toolbox to make and share their own feeds.
 
