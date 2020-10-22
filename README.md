@@ -4,7 +4,7 @@
 
 We give people the tools to make purpose-built feeds.
 
-Right now [Feedstack](https://play.google.com/store/apps/details?id=com.jasper.jasper) is only available on [android](https://play.google.com/store/apps/details?id=com.jasper.jasper). We will release the IOS version very soon.
+[Feedstack](https://play.google.com/store/apps/details?id=com.jasper.jasper) is available on [android](https://play.google.com/store/apps/details?id=com.jasper.jasper) and on [ios](https://play.google.com/store/apps/details?id=com.jasper.jasper).
 
 # How it works
 
