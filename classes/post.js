@@ -2,16 +2,16 @@
 
 class Post {
 
-    constructor(postID, hashtags, numberOfViews, userComments, userReactions, numberOfPeopleThisHasMade, whenWasThisCreated) {
+    constructor(postID, caption, numberOfViews, userComments, userReactions, numberOfPeopleThisHasMade, whenWasThisCreated) {
 
         // type: string
         // description: a unique id to identify the post
         this.postID = postID;
 
-        // type: Set <string>
-        // description: hashtags that the author has included in the caption 
-        // e.g. {'brooklyn', 'manhattanbound', '3am'}
-        this.hashtags = hashtags;
+        // type: string
+        // description: the caption the author has included in the post 
+        // e.g. "Can't stop won't stop #manhattanbound #3am."
+        this.caption = caption;
 
         // type: number
         // description: how many users have seen this post
