@@ -2,7 +2,7 @@
 
 [Feedstack](https://play.google.com/store/apps/details?id=com.jasper.jasper) is a fully progammable social network.
 
-We give developers the toolbox to make and share their own feeds.
+We give developers the tools to make and share their own feeds.
 
 That means you can decide what posts you want to see. And the priority of the posts. 
 
