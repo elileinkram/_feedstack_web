@@ -4,7 +4,7 @@
 
 We give people the tools to make purpose-built feeds.
 
-You can download [Feedstack](https://play.google.com/store/apps/details?id=com.jasper.jasper) on [IOS](https://play.google.com/store/apps/details?id=com.jasper.jasper) and on [Android](https://play.google.com/store/apps/details?id=com.jasper.jasper).
+You can install [Feedstack](https://play.google.com/store/apps/details?id=com.jasper.jasper) on [IOS](https://play.google.com/store/apps/details?id=com.jasper.jasper) and on [Android](https://play.google.com/store/apps/details?id=com.jasper.jasper).
 
 # How it works
 
