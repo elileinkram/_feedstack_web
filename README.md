@@ -2,7 +2,7 @@
 
 [Feedstack](https://play.google.com/store/apps/details?id=com.jasper.jasper) is a programmable social network.
 
-We give people the tools to make purpose-built feeds.
+We give people the tools to make purpose-built feeds and share them with the world.
 
 You can install [Feedstack](https://play.google.com/store/apps/details?id=com.jasper.jasper) on [IOS](https://play.google.com/store/apps/details?id=com.jasper.jasper) and on [Android](https://play.google.com/store/apps/details?id=com.jasper.jasper).
 
