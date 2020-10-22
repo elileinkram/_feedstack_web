@@ -4,7 +4,7 @@
 
 We give developers the tools to make and share their own feeds.
 
-This means you can decide what posts you want to see. And the priority of the posts. 
+This means you can decide what posts you want to see. And the order in which they appear. 
 
 You can install [Feedstack](https://play.google.com/store/apps/details?id=com.jasper.jasper) on [IOS](https://play.google.com/store/apps/details?id=com.jasper.jasper) and on [Android](https://play.google.com/store/apps/details?id=com.jasper.jasper).
 
