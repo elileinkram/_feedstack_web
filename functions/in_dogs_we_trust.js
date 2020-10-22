@@ -6,7 +6,7 @@ module.exports = {
 
         let ranking = 0;
         
-        const caption = post.caption
+        const caption = post.caption;
         
         if (caption.includes('dog') || caption.includes('puppy') || caption.includes('puppies')) {
                 
