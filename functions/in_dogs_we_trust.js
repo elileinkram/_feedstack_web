@@ -5,26 +5,14 @@ module.exports = {
     computeRanking: function (author, post, reader) {
 
         let ranking = 0;
-
-        const hashtags = Array.from(post.hashtags);
         
-        let isDogPost = false;
+        const caption = post.caption
         
-        for (const hashtag of hashtags) {
-            
-            if (hashtag.includes('dog') || hashtag.includes('puppy') || hashtag.includes('puppies')) {
+        if (caption.includes('dog') || caption.includes('puppy') || caption.includes('puppies')) {
                 
-                isDogPost = true;
-                
-            }
-        
-        }
-                
-        if (isDogPost) {
-    
             const numberOfPeopleThisHasMadeHappy = post.numberOfPeopleThisHasMade.get('happy');
 
-            ranking = numberOfPeopleThisHasMadeHappy + 1;        
+            ranking = numberOfPeopleThisHasMadeHappy + 1;    
                 
         }
             
