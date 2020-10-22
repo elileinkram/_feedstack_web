@@ -8,7 +8,7 @@ module.exports = {
 
         if (reader.hasViewedPost) {
 
-            return ranking;
+            return 0;
 
         }
         
