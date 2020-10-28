@@ -6,7 +6,7 @@ We give developers the tools to make and share their own feeds.
 
 That means you can decide what posts you want to see. And the order in which they appear. 
 
-You can install [Feedstack](https://apps.apple.com/us/app/feedstack-find-your-feed/id1534175629?app=itunes&ign-mpt=uo%3D4) on [ios](https://apps.apple.com/us/app/feedstack-find-your-feed/id1534175629?app=itunes&ign-mpt=uo%3D4) and on [Android](https://play.google.com/store/apps/details?id=com.jasper.jasper).
+You can install [Feedstack](https://apps.apple.com/us/app/feedstack-find-your-feed/id1534175629?app=itunes&ign-mpt=uo%3D4) on [IOS](https://apps.apple.com/us/app/feedstack-find-your-feed/id1534175629?app=itunes&ign-mpt=uo%3D4) and on [Android](https://play.google.com/store/apps/details?id=com.jasper.jasper).
 
 # How it works
 
