@@ -1,12 +1,12 @@
 # About
 
-[Feedstack](https://play.google.com/store/apps/details?id=com.jasper.jasper) is a progammable social network.
+[Feedstack](https://apps.apple.com/us/app/feedstack-find-your-feed/id1534175629?app=itunes&ign-mpt=uo%3D4) is a progammable social network.
 
 We give developers the tools to make and share their own feeds.
 
 That means you can decide what posts you want to see. And the order in which they appear. 
 
-You can install [Feedstack](https://play.google.com/store/apps/details?id=com.jasper.jasper) on [IOS](https://apps.apple.com/us/app/feedstack-find-your-feed/id1534175629?app=itunes&ign-mpt=uo%3D4) and on [Android](https://play.google.com/store/apps/details?id=com.jasper.jasper).
+You can install [Feedstack](https://apps.apple.com/us/app/feedstack-find-your-feed/id1534175629?app=itunes&ign-mpt=uo%3D4) on [IOS](https://apps.apple.com/us/app/feedstack-find-your-feed/id1534175629?app=itunes&ign-mpt=uo%3D4) and on [Android](https://play.google.com/store/apps/details?id=com.jasper.jasper).
 
 # How it works
 
@@ -22,9 +22,9 @@ The [computeRanking](https://github.com/elijahleinkram/jasper/blob/master/rankin
 
 And then spits back a number as output, which becomes the new ranking.
 
-Upload your implementation of [computeRanking](https://github.com/elijahleinkram/jasper/blob/master/ranking/compute_ranking.js) to [Feedstack](https://play.google.com/store/apps/details?id=com.jasper.jasper).
+Upload your implementation of [computeRanking](https://github.com/elijahleinkram/jasper/blob/master/ranking/compute_ranking.js) to [Feedstack](https://apps.apple.com/us/app/feedstack-find-your-feed/id1534175629?app=itunes&ign-mpt=uo%3D4).
 
-[Feedstack](https://play.google.com/store/apps/details?id=com.jasper.jasper) will then generate a new feed based on the new implementation. 
+[Feedstack](https://apps.apple.com/us/app/feedstack-find-your-feed/id1534175629?app=itunes&ign-mpt=uo%3D4) will then generate a new feed based on the new implementation. 
 
 # Rules
 
