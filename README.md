@@ -1,6 +1,6 @@
 # About
 
-[Feedstack](https://apps.apple.com/us/app/feedstack-find-your-feed/id1534175629?app=itunes&ign-mpt=uo%3D4) is a progammable social network.
+[Feedstack](https://feedstack.dev) is a progammable social network.
 
 We give developers the tools to make and share their own feeds.
 
@@ -22,9 +22,9 @@ The [computeRanking](https://github.com/elijahleinkram/jasper/blob/master/rankin
 
 And then spits back a number as output, which becomes the new ranking.
 
-Upload your implementation of [computeRanking](https://github.com/elijahleinkram/jasper/blob/master/ranking/compute_ranking.js) to [Feedstack](https://apps.apple.com/us/app/feedstack-find-your-feed/id1534175629?app=itunes&ign-mpt=uo%3D4).
+Upload your implementation of [computeRanking](https://github.com/elijahleinkram/jasper/blob/master/ranking/compute_ranking.js) to [Feedstack](https://feedstack.dev).
 
-[Feedstack](https://apps.apple.com/us/app/feedstack-find-your-feed/id1534175629?app=itunes&ign-mpt=uo%3D4) will then generate a new feed based on the new implementation. 
+[Feedstack](https://feedstack.dev) will then generate a new feed based on the new implementation. 
 
 # Rules
 
